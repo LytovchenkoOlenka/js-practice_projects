@@ -7,14 +7,12 @@ export default defineConfig({
       input: {
         // Головна сторінка (твоє навігаційне меню)
         main: resolve(__dirname, "index.html"),
-
-        // Сторінка твого міні-проєкту "Order Processing App"
-        // Шлях від кореня проєкту до файлу index.html всередині папки order-processing-app
         orderApp: resolve(__dirname, "src/order-processing-app/index.html"),
 
         // !!! Якщо ти будеш додавати нові міні-проєкти,
         // !!! тобі потрібно буде додати їх HTML-файли сюди:
-        // newProject: resolve(__dirname, 'src/new-project-folder/index.html'),
+        // newProject: resolve(__dirname, "src/01-JS30-Drum-Kit/drum-kit.html"),
+        // newProject: resolve(__dirname, "src/02-JS30-Clock/clock.html"),
       },
     },
   },
