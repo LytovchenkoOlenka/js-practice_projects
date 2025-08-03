@@ -1,0 +1,53 @@
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.hl {
+  color: var(--base);
+}
+
+body {
+  background: #193549;
+  color: white;
+  font-family: "helvetica neue", sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+.container {
+  text-align: center;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100px;
+}
+
+.gh-link {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.828);
+  text-shadow: 0 0 0.5rem black;
+  padding: 12px 24px;
+  margin: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.gh-link:hover {
+  background-color: rgba(150, 223, 255, 0.883);
+}
