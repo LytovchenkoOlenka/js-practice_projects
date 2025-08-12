@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="./array-cardio2.css" />
+<script type="text/javascript" src="./cornify.js"></script>
+<a class="gh-link" href="../../index.html">Go to main menu</a>
+<script>
+  const pressed = [];
+  const secretCode = "secret";
+
+  // window.addEventListener("keyup", (e) => {
+  //   console.log(e.key);
+  //   pressed.push(e.key);
+  //   pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+  //   if (pressed.join("").includes(secretCode)) {
+  //     console.log("DING DING!");
+  //     cornify_add();
+  //   }
+  //   console.log(pressed);
+  // });
+
+  window.addEventListener("keyup", (e) => {
+    // Додаємо нову клавішу
+    pressed.push(e.key);
+
+    // Обрізаємо масив, якщо він довший за секретний код
+    if (pressed.length > secretCode.length) {
+      pressed.shift();
+    }
+
+    // Перевіряємо, чи був введений секретний код
+    if (pressed.join("").includes(secretCode)) {
+      cornify_add();
+    }
+
+    console.log(pressed);
+  });
+</script>
