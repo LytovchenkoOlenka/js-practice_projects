@@ -1,0 +1,65 @@
+.gh-link {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.828);
+  text-shadow: 0 0 0.5rem black;
+  padding: 12px 24px;
+  margin: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.gh-link:hover {
+  background-color: rgba(150, 223, 255, 0.883);
+}
+
+html {
+  color: black;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+h1 {
+  text-shadow: 10px 10px 0 rgba(0, 0, 0, 1);
+  font-size: 100px;
+}
+
+/* 17/30 JS CHALLANGE */
+/* 
+#bands {
+  list-style: inside square;
+  font-size: 20px;
+  background: white;
+  width: 500px;
+  margin: auto;
+  padding: 0;
+  box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+#bands li {
+  border-bottom: 1px solid #efefef;
+  padding: 20px;
+}
+
+#bands li:last-child {
+  border-bottom: 0;
+}
+
+a {
+  color: #ffc600;
+  text-decoration: none;
+} */
