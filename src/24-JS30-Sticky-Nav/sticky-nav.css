@@ -1,16 +1,13 @@
 .gh-link {
-  /* Закріплення в лівому нижньому куті екрану */
   position: fixed;
-  bottom: 20px; /* Відступ від низу */
-  left: 20px; /* Відступ від лівого краю */
-  z-index: 1000; /* Розміщення поверх інших елементів */
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
 
-  /* Створення круглої форми */
   width: 50px;
   height: 50px;
-  border-radius: 50%; /* Робить елемент круглим */
+  border-radius: 50%;
 
-  /* Центрування тексту всередині */
   display: flex;
   justify-content: center;
   align-items: center;
